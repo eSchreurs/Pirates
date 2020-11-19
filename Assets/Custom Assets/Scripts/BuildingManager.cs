@@ -50,7 +50,7 @@ public class BuildingManager : MonoBehaviour
         }
     }
 
-    public void PlaceBuilding(GameObject building) {
+    public void CreateBuilding(GameObject building) {
         var v3 = Input.mousePosition;
         v3.z = 10;
         v3 = Camera.main.ScreenToWorldPoint(v3);

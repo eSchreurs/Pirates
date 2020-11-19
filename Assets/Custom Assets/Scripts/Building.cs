@@ -31,7 +31,7 @@ public class Building : MonoBehaviour {
         GameObject selectedBuilding = buildingManager.GetComponent<BuildingManager>().selectedBuilding;
         if (selectedBuilding == null || selectedBuilding.GetComponent<Building>().isPlaced == true) {
             if (selectedBuilding != null) {
-                selectedBuilding.GetComponent<Renderer>().material.color = Color.white;
+               selectedBuilding.GetComponent<Renderer>().material.color = Color.white;
             }
             buildingManager.GetComponent<BuildingManager>().selectedBuilding = this.gameObject;
             this.isSelected = true;
