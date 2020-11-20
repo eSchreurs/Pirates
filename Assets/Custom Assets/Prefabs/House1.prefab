@@ -101,6 +101,9 @@ MonoBehaviour:
   - {fileID: 7839363127043620634, guid: 333de8e6fa73ed0438528404c3d1a06e, type: 3}
   - {fileID: 3534656099673999419, guid: 3cd8b1585af14c448b32b725972723a0, type: 3}
   - {fileID: 3840444991376591570, guid: d878d323fae9f6640bf0bd365463d727, type: 3}
+  - {fileID: 6536974121356784726, guid: ec027985c5a996641aa9e1e2d1f56e12, type: 3}
+  - {fileID: 3583970632544133484, guid: 7efb6bb4a6da63e4abefd5fd8fe34e25, type: 3}
+  - {fileID: 8314854322392830050, guid: 0034cac552852bd4aa8ed80f9fe195a1, type: 3}
   isSelected: 0
   isPlaced: 0
   canBuild: 1
@@ -135,4 +138,4 @@ MeshCollider:
   serializedVersion: 3
   m_Convex: 1
   m_CookingOptions: 30
-  m_Mesh: {fileID: 5759979386310192390, guid: fb64c14369a433f49b9871e979ed4aef, type: 3}
+  m_Mesh: {fileID: -4479996983226998197, guid: 956dab0d6807b014abd9695c496ec87c, type: 3}
